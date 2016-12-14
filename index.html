@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Game Notes</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,8 +16,30 @@
         <![endif]-->
     </head>
     <body>
-
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+     <section class="game-guests">
+        <p class-"notify"></p>
+     
+     <h1>Gaming Notes</h1> <br>
+     
+     
+    
+     <form name-"gameForm" action="php/notebook.php" onsubmit="return validation()" method="post" >
+         <h2>Title</h2>
+         <p>
+         <label for="title"> Title*:</label>
+         <input type="text" name="title" id="title">
+         </p>
+         
+       <h2>Body</h2>      
+<p>
+    <textarea name="notes"></textarea>
+</p> <br>
+  <p> <input type="submit" value="Submit"> 
+    </p>
+        </form>
+      <a href="notebook.php">Return to Previous Notes</a>  
+        
+     </section>   
     </body>
-</html>
+    
+    </html>
